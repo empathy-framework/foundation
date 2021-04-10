@@ -1,0 +1,19 @@
+{
+    "name": "empathy-php/foundation",
+    "description": "Empathy Foundation",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Podvirnyy Nikita",
+            "email": "suimin.tu.mu.ga.mi@gmail.com"
+        }
+    ],
+    "require": {
+        "empathy-php/litecore": "^0.1",
+        "empathy-php/litengine": "^0.1"
+    },
+    "scripts": {
+        "empathy-run": "vendor/empathy-php/litecore/empathy.exe vendor/empathy-php/litecore/script.php"
+    }
+}
